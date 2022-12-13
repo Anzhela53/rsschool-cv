@@ -2,15 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
     font-family: 'Merriweather', serif;
     line-height: 1.6;
-    font-size: 14px;     
+    font-size: 14px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
     .section {
-      width: 100%;
+        width: 100%;
     }
 }
 
@@ -18,6 +20,8 @@
 * :before,
 * :after {
     box-sizing: border-box;
+    margin: 0;
+    
 }
 
 .html {
@@ -32,22 +36,14 @@
 }
 
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
     background-color:#8FD6C8;
-}
-
-.link {
-  text-decoration: none;
-  color: #829985;
-  transition: color 0.5s;
-}
-  
-.link:hover {
-  color: #5d7260;
+    margin:0 auto;
+    padding: 0;
 }
 
 .nav-list {
@@ -55,6 +51,8 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    margin:0;
+    padding: 0;
 }
 
 .nav-link {
@@ -64,48 +62,58 @@
     font-size: 20px;
     transition: .4s;
 }
-
+.nav-link:hover {
+    color: #5d7260;
+}
 .section-item a {
     color: #8FD6C8;
     text-decoration: none;  
     transition: color 0.5s;
 }
 
+.section-item a:hover {
+    color: #6eada0;
+  }
+
 .photo {
-   display:inline;
+    display:inline;
     position:relative;
     top: 5px;
-    left: 60px;
+    left: 65px;
     width:150px;
     height:200px;
 }
 
+.link:hover {
+    color: #5d7260;
+}
+
 .section-title2 {
-  font-weight: 40px;
-  right: 30px;
-  height: 30px;
-  display:inline;
-  position:relative;
-  padding: 10px;
-  color: #000000;
-  font-size: 24px;
-  position: absolute;
-  top: 85px;
-  left: 278px;
+    font-weight: 40px;
+    right: 30px;
+    height: 30px;
+    display:inline;
+    position:relative;
+    padding: 10px;
+    color: #000000;
+    font-size: 24px;
+    position: absolute;
+    top: 50px;
+    left: 230px;
 }
 
 .section-title3 {
-  font-weight: 0px;
-  right: 30px;
-  height: 30px;
-  display:inline;
-  position:relative;
-  padding: 40px;
-  color: #829985;
-  font-size: 24px;
-  position: absolute;
-  top: 90px;
-  left: 250px;
+    font-weight: 0px;
+    right: 30px;
+    height: 30px;
+    display:inline;
+    position:relative;
+    padding: 40px;
+    color: #829985;
+    font-size: 24px;
+    position: absolute;
+    top: 60px;
+    left: 200px;
 }
 
 .section-title {
@@ -122,9 +130,16 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #829985;
+    padding: 10px;
 }
 
 .section {
-  width: 50%;
-  padding-left: 40px;
+    width: 50%;
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.footer {
+    padding-left: 33px;
+    padding-top: 10px;
 }
