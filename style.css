@@ -75,7 +75,9 @@
    display:inline;
     position:relative;
     top: 5px;
-    left: 45px;
+    left: 60px;
+    width:150px;
+    height:200px;
 }
 
 .section-title2 {
@@ -84,28 +86,26 @@
   height: 30px;
   display:inline;
   position:relative;
-  padding: 0px;
-  left: 350px;
+  padding: 10px;
   color: #000000;
   font-size: 24px;
   position: absolute;
-  top: 70px;
-  left: 330px;
+  top: 85px;
+  left: 278px;
 }
 
 .section-title3 {
-  font-weight: 40px;
+  font-weight: 0px;
   right: 30px;
   height: 30px;
   display:inline;
   position:relative;
-  padding: 30px;
-  left: 350px;
+  padding: 40px;
   color: #829985;
   font-size: 24px;
   position: absolute;
-  top: 70px;
-  left: 300px;
+  top: 90px;
+  left: 250px;
 }
 
 .section-title {
