@@ -30,7 +30,6 @@
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
     display: block;
     position:relative;
 }
@@ -53,6 +52,7 @@
     list-style: none;
     margin:0;
     padding: 0;
+    margin-right: 20px;
 }
 
 .nav-link {
@@ -140,6 +140,24 @@
 }
 
 .footer {
-    padding-left: 33px;
+    background-color: #8FD6C8;
+}
+.container.foo {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 80px;
+    margin-right: 63px;
+    margin-top: 30px;
+}
+
+.foo {
+    transition: .4s;
+    font-size: 18px;
+}
+.icon {
+    height: 50px;
+    width: 90px;
     padding-top: 10px;
 }
